@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+
+  "livingDocExecutionDataCollector": {
+    "enabled": true,
+    "filepath": "TestExecution.json"
+  },
+
+  "formatters": {
+    "html": { "outputFilePath": "../../../TestResults/index.html" }
+  }
+}
