@@ -22,7 +22,7 @@ Please note that the test currenty fails as there are issues identified with the
 An html report of this test with all the findings can be found in the below location.
 
 ```
-MaPSTechTest\TestResults\AccessabilityTestReport\index.html
+MaPSTechTest\TestResults\AccessibilityTestReport\index.html
 ```
 
 ## How to run the tests locally
