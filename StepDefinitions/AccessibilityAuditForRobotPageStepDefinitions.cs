@@ -22,7 +22,7 @@ namespace MaPSTechTestBackUp.StepDefinitions
         [Then(@"the page should have no accessibility violations")]
         public async Task ThenThePageShouldHaveNoViolations()
         {
-            AxeHtmlReportOptions reportOptions = new(reportDir: "../../../TestResults/AccessabilityTestReport");
+            AxeHtmlReportOptions reportOptions = new(reportDir: "../../../TestResults/AccessibilityTestReport");
             AxeResults axeResults = await _driver.Page.RunAxe(reportOptions: reportOptions);
 
             Assert.That(axeResults.Violations, Is.Empty,

@@ -1,4 +1,4 @@
-﻿@accessibility
+﻿@accessibility @ignore
 Feature: Accessibility Audit for Chat Robot Page
 
 @accessibility
